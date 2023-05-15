@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: "Kumbh Sans";
+  font-weight: 700;
+  color: #2e3349;
+}
+
+h3 {
+  font-family: "Kumbh Sans";
+  font-size: 10px;
+  font-weight: 400;
+  color: #6b7082;
+}
+
+body {
+  background-color: #19a1ae;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item {
+  height: 395px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  margin-right: 22px;
+}
+
+/* .circle1 {
+  background: linear-gradient(
+    180deg,
+    rgba(9, 137, 180, 0.0001) 0.78%,
+    #53ffee 99.94%
+  );
+  width: 622px;
+  height: 621px;
+  border-radius: 50%;
+  opacity: 25%;
+  transform: rotate(-135deg);
+  position: absolute;
+  right: 150px;
+  bottom: 400px;
+} */
+
+/* .circle2 {
+  background: linear-gradient(
+    180deg,
+    rgba(9, 137, 180, 0.0001) 0.78%,
+    #53ffee 99.94%
+  );
+  width: 622px;
+  height: 621px;
+  border-radius: 50%;
+  opacity: 25%;
+  transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
+  position: absolute;
+  left: 175px;
+  top: 400px;
+} */
+
+.prof-pic {
+  display: flex;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.age {
+  margin-left: 8.5px;
+  font-size: 18px;
+}
+
+.place {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 13px;
+  font-size: 14px;
+}
+
+.line {
+  border: 1px solid #e8e9ec;
+  margin-top: 28px;
+}
+
+.combine {
+  position: relative;
+  bottom: 57px;
+}
+
+.number {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-left: 53px;
+  margin-right: 54.5px;
+}
+
+.under {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+  margin-left: 47.5px;
+  margin-right: 55.5px;
+}
+
+.mid {
+  position: absolute;
+  right: 153px;
+}
+
+.circles {
+  background: url(./resources/Oval\ Copy\ 33.svg),
+    url(./resources/Oval\ Copy\ 32.svg) 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and(min-width:375px) {
+  .container {
+    width: 1440px;
+    height: 720px;
+  }
+}
